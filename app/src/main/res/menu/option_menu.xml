@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/overflowMenu"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/grid"
+                android:title="Linear View"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/linear"
+                android:title="Grid View"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/audio"
+                android:title="Audio Fragment"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/image"
+                android:title="Image fragment"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
